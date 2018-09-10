@@ -1983,7 +1983,7 @@ def regulation (ax, type, num, from_part, to_part, scale, linewidth, arc_height_
                 linewidth=linewidth, color=color, zorder=12, linestyle=linestyle)
     line_across = Line2D([start,end],[top,top], 
                 linewidth=linewidth, color=color, zorder=12, linestyle=linestyle)
-    line_toward = Line2D([end,end],[top,arcHeightEnd+corr], 
+    line_toward = Line2D([end,end],[top,arcHeightEnd], 
                 linewidth=linewidth, color=color, zorder=12, linestyle=linestyle)
     line_rep    = Line2D([end-arrowhead_length,end+arrowhead_length],[arcHeightEnd,arcHeightEnd], 
                 linewidth=linewidth, color=color, zorder=12, linestyle='-')
